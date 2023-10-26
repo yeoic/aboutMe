@@ -39,7 +39,7 @@ module.exports = {
         slideUp: "slideUp 1.1s ease-in-out",
         reveal: "reveal 2s forwards",
         unreveal: "unreveal 2s forwards",
-        fadeOut: "fadeOut 0.5s forwards",
+        fadeOut: "fadeOut 2s forwards",
         fadeIn: "fadeOut 0.5s forwards",
       },
       colors: {

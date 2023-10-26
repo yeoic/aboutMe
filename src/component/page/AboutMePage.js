@@ -50,14 +50,31 @@ function AboutMePage(props) {
 
   return (
     <section className="relative h-screen w-screen dark:bg-black">
-      <div className="h-full w-full bg-amber-200"></div>
+      <div className="flex h-full w-full flex-col items-center justify-end">
+        <div className="flex flex-grow flex-col items-center justify-center ">
+          <p className="pt-24 text-center font-NanumMyeongjo text-2xl">
+            <p className="mb-6 text-4xl">안녕하세요!</p>
+            <p>웹 프론트엔드 개발 지원자</p>
+            <p className="mb-5 text-4xl font-bold">
+              여인철(Yeo Incheol)
+              <p className="text-right text-sm">입니다.</p>
+            </p>
+          </p>
+        </div>
+        <div className="flex justify-center">
+          <div className="absolute h-96 w-80 -translate-y-6 translate-x-4 border-8 border-amber-300/60"></div>
+          <div className="absolute  h-96 w-80 translate-y-4 border-4"></div>
+          <img className="z-30" src="/MyPhoto.png" alt="My Photo" />
+        </div>
+      </div>
+
       <div
         className={classNames(
-          "absolute inset-0  h-full w-full bg-white dark:bg-black ",
+          "absolute inset-0 z-40 h-full w-full bg-white dark:bg-black ",
           isHidden ? "animate-fadeOut" : "",
         )}
       >
-        <div className="flex h-full w-full flex-col items-center justify-center gap-x-1  sm:flex-row ">
+        <div className="flex h-full w-full flex-col items-center justify-center gap-x-1 sm:flex-row ">
           <p className="w-[20rem] text-right text-[13rem] font-bold dark:text-amber-500 sm:text-right">
             '{age}
           </p>

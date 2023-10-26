@@ -7,7 +7,7 @@ function HomePage(props) {
   return (
     <section className={classNames("h-screen w-screen p-3 dark:bg-black")}>
       <div className="flex h-full flex-col-reverse xl:flex-row">
-        <div className="flex basis-1/2 flex-col items-start justify-center px-10 dark:text-white sm:px-16 xl:mt-14">
+        <div className="flex basis-1/2 flex-col items-start justify-center px-2 dark:text-white sm:px-10 sm:px-16 xl:mt-14">
           <p className="dark:text-orange-500 sm:text-2xl">I'm Yeo Incheol</p>
 
           <TypingText
