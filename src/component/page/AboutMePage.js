@@ -52,7 +52,7 @@ function AboutMePage(props) {
     <section className="relative h-screen w-screen dark:bg-black">
       <div className="flex h-full w-full flex-col items-center justify-end">
         <div className="flex flex-grow flex-col items-center justify-center ">
-          <p className="pt-24 text-center font-NanumMyeongjo text-2xl">
+          <p className="pt-12 text-center font-NanumMyeongjo text-2xl dark:text-white">
             <p className="mb-6 text-4xl">안녕하세요!</p>
             <p>웹 프론트엔드 개발 지원자</p>
             <p className="mb-5 text-4xl font-bold">
@@ -63,8 +63,12 @@ function AboutMePage(props) {
         </div>
         <div className="flex justify-center">
           <div className="absolute h-96 w-80 -translate-y-6 translate-x-4 border-8 border-amber-300/60"></div>
-          <div className="absolute  h-96 w-80 translate-y-4 border-4"></div>
-          <img className="z-30" src="/MyPhoto.png" alt="My Photo" />
+          <div className="absolute h-96 w-80 translate-y-4 border-4"></div>
+          <img
+            className="z-30 object-cover"
+            src="/MyPhoto.png"
+            alt="My Photo"
+          />
         </div>
       </div>
 
