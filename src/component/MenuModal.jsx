@@ -24,7 +24,7 @@ function MenuModal(props) {
   return (
     <div
       className={classNames(
-        "absolute z-40 flex h-full w-full justify-center bg-white dark:bg-black",
+        "fixed z-40 flex h-full w-full justify-center bg-white dark:bg-black",
         modalClass,
       )}
     >
