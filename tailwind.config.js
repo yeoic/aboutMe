@@ -46,6 +46,7 @@ module.exports = {
         "back-Ivory": "#fff6e9",
       },
       fontFamily: {
+        FjallaOne: ["Fjalla One", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
         NanumMyeongjo: ["Nanum Myeongjo", "serif"],
       },
