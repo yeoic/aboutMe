@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PortfolioPage from "./component/page/PortfolioPage";
 import AboutMePage from "./component/page/AboutMePage";
 
+
 export const stateContext = React.createContext();
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
           menuModalHandler,
         }}
       >
-        <div className={classNames(isDarkMode ? "dark" : "")}>
+        <div className={classNames("dark:bg-black bg-white",isDarkMode ? "dark" : "")}>
           {isMenuModalOpen && <MenuModal />}
           <Header />
           <Routes>

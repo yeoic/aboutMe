@@ -2,22 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+
+
+/*.App {*/
+/*    width: 100vw;*/
+/*    min-height: 100%;*/
+/*    @apply bg-white;*/
+/*    @apply dark:bg-black;*/
+/*}*/
+
+.slick-prev:before,
+.slick-next:before {
+    color: black!important;
 }
 
-.animate-fadeIn {
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-}
-
-.animation-delay-500 {
-    animation-delay: 500ms;
-}
+& .slick-list { margin: 0 -7px; & .slick-slide > div { padding: 0 10px; } }

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function PortfolioPage(props) {
   return (
-    <section className="h-screen w-screen dark:bg-black">
-      <div className="mb-24 flex flex-col px-12 dark:bg-black lg:mx-48">
+    <section className="h-screen dark:bg-black">
+      <div className="mb-24 flex flex-grow flex-col px-12 lg:mx-48">
         <div className="flex h-52 items-end justify-start  ">
           <div className="w-[39rem] border-b border-black dark:border-white ">
             <h1 className="mb-8 font-NanumMyeongjo text-6xl dark:text-white">
@@ -12,7 +12,7 @@ function PortfolioPage(props) {
             </h1>
           </div>
         </div>
-        <div className="mt-10 grid grid-flow-dense justify-stretch gap-y-2 sm:gap-x-2 lg:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-10 grid flex-grow grid-flow-dense justify-stretch gap-y-2  sm:gap-x-2 lg:grid-cols-2 xl:grid-cols-3">
           {/*포트폴리오 박스*/}
           <div className="relative h-96 items-center justify-center bg-[url('/public/character_dark.png')] bg-cover bg-center bg-no-repeat p-20 hover:bg-blue-300 dark:border-amber-500 ">
             <div className="absolute inset-0 border-2 border-slate-500/60 bg-white p-5 opacity-0 transition-opacity hover:opacity-90 dark:border-2 dark:border-amber-600/60 dark:bg-black dark:text-white">
@@ -37,7 +37,7 @@ function PortfolioPage(props) {
                 <div className="flex flex-col items-center justify-center">
                   <img
                     className="h-16 w-16 rounded-2xl"
-                    src={"logo/react-logo.png"}
+                    src={"logo/React-logo.png"}
                     alt="React Logo"
                   />
                   <p className="text-sm">React</p>
@@ -45,7 +45,7 @@ function PortfolioPage(props) {
                 <div className="flex flex-col items-center justify-center">
                   <img
                     className="h-16 w-16 rounded-2xl"
-                    src={"logo/tailwindCss.png"}
+                    src={"logo/TailwindCSS-Logo.png"}
                     alt="tailwindCSS Logo"
                   />
                   <p className="text-center text-sm">TailWind</p>
@@ -63,7 +63,7 @@ function PortfolioPage(props) {
           </div>
           {/*포트폴리오 박스*/}
           {/*포트폴리오 박스*/}
-          <div className="relative flex h-96 w-full items-center justify-center border bg-gray-300 bg-[url('/public/ab.png')] bg-cover bg-center bg-no-repeat p-20 hover:bg-blue-300 dark:border-amber-500/80 ">
+          <div className="relative flex h-96  items-center justify-center border bg-gray-300 bg-[url('/public/ab.png')] bg-cover bg-center bg-no-repeat p-20 hover:bg-blue-300 dark:border-amber-500/80 ">
             <div className="absolute inset-0 flex-wrap border-2 border-slate-500/60 bg-white p-5 opacity-0 transition-opacity hover:opacity-90 dark:border-2 dark:border-amber-600/60 dark:bg-black dark:text-white">
               <div>
                 <h1 className="text-2xl font-bold dark:text-orange-500">
@@ -82,16 +82,16 @@ function PortfolioPage(props) {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <img
-                    className="h-16 w-16"
-                    src={"logo/react-logo.png"}
+                    className="h-16 w-16 rounded-2xl"
+                    src={"logo/React-logo.png"}
                     alt="React Logo"
                   />
                   <p className="text-sm">React</p>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <img
-                    className="h-16 w-16"
-                    src={"logo/tailwindCss.png"}
+                    className="h-16 w-16 rounded-2xl"
+                    src={"logo/TailwindCSS-Logo.png"}
                     alt="tailwindCSS Logo"
                   />
                   <p className="text-center text-sm">TailWind</p>
@@ -131,16 +131,16 @@ function PortfolioPage(props) {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <img
-                    className="h-16 w-16"
-                    src={"logo/react-logo.png"}
+                    className="h-16 w-16 rounded-2xl"
+                    src={"logo/React-logo.png"}
                     alt="React Logo"
                   />
                   <p className="text-sm">React</p>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <img
-                    className="h-16 w-16"
-                    src={"logo/tailwindCss.png"}
+                    className="h-16 w-16 rounded-2xl"
+                    src={"logo/TailwindCSS-Logo.png"}
                     alt="tailwindCSS Logo"
                   />
                   <p className="text-center text-sm">TailWind</p>
