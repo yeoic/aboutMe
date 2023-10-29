@@ -37,42 +37,42 @@ export default class LogoSlider extends Component {
         <Slider {...settings}>
           <div>
             <img
-              className="rounded-3xl"
+              className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/Javascript-Logo.png"
               alt="React Logo"
             />
           </div>
           <div>
             <img
-              className="rounded-3xl"
+              className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/Typescript-Logo.png"
               alt="React Logo"
             />
           </div>
           <div>
             <img
-              className="rounded-3xl"
+              className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/React-Logo.png"
               alt="React Logo"
             />
           </div>
           <div>
             <img
-              className="rounded-3xl"
+              className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/Redux-Logo.png"
               alt="React Logo"
             />
           </div>
           <div>
             <img
-              className="rounded-3xl"
+              className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/NextJs-Logo.png"
               alt="React Logo"
             />
           </div>
           <div>
             <img
-              className="rounded-3xl"
+              className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/TailwindCSS-Logo.png"
               alt="React Logo"
             />

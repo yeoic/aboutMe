@@ -2,18 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-/*.App {*/
-/*    width: 100vw;*/
-/*    min-height: 100%;*/
-/*    @apply bg-white;*/
-/*    @apply dark:bg-black;*/
-/*}*/
-
-.slick-prev:before,
-.slick-next:before {
-    color: black!important;
+.slick-prev:before
+ {
+    @apply text-slate-500;
+    @apply dark:text-amber-400;
 }
 
-& .slick-list { margin: 0 -7px; & .slick-slide > div { padding: 0 10px; } }
+.slick-next:before {
+    @apply text-slate-500;
+    @apply dark:text-amber-400;
+
+}
+
+.slick-dots li.slick-active button:before {
+    @apply dark:text-amber-600;
+}
+
+.slick-dots li button:before {
+    @apply dark:text-amber-300;
+    @apply text-[10px]
+}
+
+
+& .slick-list { margin: 0 10px;
+    & .slick-slide > div { padding: 0 -50px; width:80%; } }
