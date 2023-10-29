@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-slider:before {
+    @apply z-40;
+}
+
 .slick-prev:before
  {
     @apply text-slate-500;

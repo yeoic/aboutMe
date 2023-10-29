@@ -7,6 +7,7 @@ function AboutMePage(props) {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const [isHidden, setIsHidden] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
   const [age, setAge] = useState(0);
 
   useEffect(() => {
@@ -27,7 +28,11 @@ function AboutMePage(props) {
 
   useEffect(() => {
     setTimeout(() => {
-      setIsHidden(!isHidden);
+      setIsAnimating(true);
+      setTimeout(() => {
+        setIsAnimating(false);
+        setIsHidden(true);
+      }, 1700);
     }, 5000);
   }, []);
 
@@ -44,7 +49,7 @@ function AboutMePage(props) {
     <section
       className={classNames(
         "relative h-screen",
-        // isHidden ? "" : "overflow-hidden",
+        isHidden ? "" : "overflow-hidden",
       )}
     >
       <div className="flex h-full flex-col items-center justify-end dark:bg-black lg:flex-row">
@@ -68,7 +73,7 @@ function AboutMePage(props) {
           <div className="lg:w-[28rem absolute h-96 w-80 -translate-y-24 translate-x-4 animate-pulse border-8 border-amber-300/60 dark:border-amber-400/60 lg:h-[34rem] lg:w-[29rem] lg:translate-x-8 lg:border-[1.2rem]"></div>
           <div className="absolute h-96 w-80 -translate-y-12 animate-pulse border-4 border-slate-300/40 dark:border-amber-300/30 lg:h-[34rem] lg:w-[28rem] lg:border-[0.8rem]"></div>
           <img
-            className=" z-40 h-[30rem] object-scale-down object-top lg:h-auto"
+            className=" z-10 h-[30rem] object-scale-down object-top lg:h-auto"
             src="/MyPhoto.png"
             alt="My Photo"
           />
@@ -167,11 +172,11 @@ function AboutMePage(props) {
           </div>
         </div>
       </section>
-
       <div
         className={classNames(
-          "fixed inset-0 z-40 h-full w-full bg-white dark:bg-black ",
-          isHidden ? "animate-fadeOut" : "",
+          "fixed inset-0 z-30 h-full w-full bg-white dark:bg-black ",
+          isAnimating ? "animate-fadeOut" : "",
+          isHidden ? "hidden" : "",
         )}
       >
         <div className="flex h-full w-full flex-col items-center justify-center gap-x-1 sm:flex-row ">
