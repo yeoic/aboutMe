@@ -38,7 +38,7 @@ export default class LogoSlider extends Component {
           <div>
             <img
               className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
-              src="/logo/JJavascript-Logo.png"
+              src="/logo/Javascript-Logo.png"
               alt="Javascript Logo"
             />
           </div>
