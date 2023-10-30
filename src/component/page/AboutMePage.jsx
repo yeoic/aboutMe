@@ -162,14 +162,14 @@ function AboutMePage(props) {
               이 있습니다. 이 부분에 검증된 사람이 필요하다면 저를 고려해주세요!
             </p>
           </div>
-          <div className="mt-10">
-            <p className="mb-4 text-center font-NanumMyeongjo text-3xl font-bold dark:text-amber-500">
-              성과
-            </p>
-            <p className="text-center">
-              저는 어디서든 최선을 다했고 이를 결과로 증명한 사람입니다.
-            </p>
-          </div>
+          {/*<div className="mt-10">*/}
+          {/*  <p className="mb-4 text-center font-NanumMyeongjo text-3xl font-bold dark:text-amber-500">*/}
+          {/*    성과*/}
+          {/*  </p>*/}
+          {/*  <p className="text-center">*/}
+          {/*    저는 어디서든 최선을 다했고 이를 결과로 증명한 사람입니다.*/}
+          {/*  </p>*/}
+          {/*</div>*/}
         </div>
       </section>
       <div

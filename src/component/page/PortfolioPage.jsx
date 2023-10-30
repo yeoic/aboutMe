@@ -29,7 +29,7 @@ function PortfolioPage(props) {
                 <div className="flex flex-col items-center justify-center">
                   <img
                     className="h-16 w-16 rounded-2xl"
-                    src={"logo/Javascript-logo.png"}
+                    src={"logo/JJavascript-logo.png"}
                     alt="Javascript Logo"
                   />
                   <p className="text-sm">JS(ES6+)</p>
@@ -75,7 +75,7 @@ function PortfolioPage(props) {
                 <div className="flex flex-col items-center justify-center">
                   <img
                     className="h-16 w-16"
-                    src={"logo/Javascript-logo.png"}
+                    src={"logo/JJavascript-logo.png"}
                     alt="Javascript Logo"
                   />
                   <p className="text-sm">JS(ES6+)</p>
@@ -124,7 +124,7 @@ function PortfolioPage(props) {
                 <div className="flex flex-col items-center justify-center">
                   <img
                     className="h-16 w-16"
-                    src={"logo/Javascript-logo.png"}
+                    src={"logo/JJavascript-logo.png"}
                     alt="Javascript Logo"
                   />
                   <p className="text-sm">JS(ES6+)</p>

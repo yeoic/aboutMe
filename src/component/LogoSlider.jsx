@@ -38,15 +38,15 @@ export default class LogoSlider extends Component {
           <div>
             <img
               className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
-              src="/logo/Javascript-Logo.png"
-              alt="React Logo"
+              src="/logo/JJavascript-Logo.png"
+              alt="Javascript Logo"
             />
           </div>
           <div>
             <img
               className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/Typescript-Logo.png"
-              alt="React Logo"
+              alt="Typescript Logo"
             />
           </div>
           <div>
@@ -60,21 +60,21 @@ export default class LogoSlider extends Component {
             <img
               className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/Redux-Logo.png"
-              alt="React Logo"
+              alt="Redux Logo"
             />
           </div>
           <div>
             <img
               className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/NextJs-Logo.png"
-              alt="React Logo"
+              alt="NextJs Logo"
             />
           </div>
           <div>
             <img
               className="rounded-3xl shadow-md dark:border-2 dark:border-amber-300/30"
               src="/logo/TailwindCSS-Logo.png"
-              alt="React Logo"
+              alt="TailwindCSS Logo"
             />
           </div>
         </Slider>
