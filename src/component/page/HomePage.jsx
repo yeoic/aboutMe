@@ -1,15 +1,15 @@
 import classNames from "classnames";
 import React from "react";
-import TypingText from "../TypingText";
+import TypingText from "../animation/TypingText";
 import { Link } from "react-router-dom";
 import { DevicePhoneMobileIcon } from "@heroicons/react/20/solid";
 
 function HomePage(props) {
   return (
     <section className={classNames("h-screen w-screen p-3 dark:bg-black")}>
-      <div className="flex h-full flex-col-reverse xl:flex-row">
+      <article className="flex h-full flex-col-reverse xl:flex-row">
         <div className="flex basis-1/2 flex-col items-start justify-center px-2 dark:text-white sm:px-10 sm:px-16 xl:mt-14">
-          <p className="dark:text-orange-500 sm:text-2xl">I'm Yeo Incheol</p>
+          <h1 className="dark:text-orange-500 sm:text-2xl">I'm Yeo Incheol</h1>
 
           <TypingText
             initialText="I Develop Web Frontend"
@@ -37,8 +37,8 @@ function HomePage(props) {
             </button>
           </div>
         </div>
-        <div className="basis-1/2 bg-black bg-[url('/public/character_dark.png')] bg-cover bg-center bg-no-repeat"></div>
-      </div>
+        <figure className="basis-1/2 bg-black bg-[url('/public/character_dark.png')] bg-cover bg-center bg-no-repeat"></figure>
+      </article>
     </section>
   );
 }

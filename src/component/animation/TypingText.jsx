@@ -30,10 +30,10 @@ function TypingText({ initialText, typingTextSpeed, textStyle }) {
   }, [count, step]);
 
   return (
-    <p className={textStyle}>
+    <b className={textStyle}>
       {text}
       <span className="animate-blink">|</span>
-    </p>
+    </b>
   );
 }
 

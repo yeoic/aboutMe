@@ -1,9 +1,9 @@
 import React from "react";
 import { Bars3Icon, SunIcon } from "@heroicons/react/24/outline";
-import { stateContext } from "../App";
+import { stateContext } from "../../App";
 import { MoonIcon, XMarkIcon } from "@heroicons/react/20/solid";
 
-function DarkModeButton(props) {
+function HeaderButton(props) {
   const { isDarkMode, setIsDarkMode, isMenuModalOpen, menuModalHandler } =
     React.useContext(stateContext);
 
@@ -34,4 +34,4 @@ function DarkModeButton(props) {
   );
 }
 
-export default DarkModeButton;
+export default HeaderButton;

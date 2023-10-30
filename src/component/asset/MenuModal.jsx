@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import { stateContext } from "../App";
+import { stateContext } from "../../App";
 import { Link } from "react-router-dom";
 
 function MenuModal(props) {

@@ -1,5 +1,5 @@
 import React from "react";
-import DarkModeButton from "./DarkModeButton";
+import HeaderButton from "./HeaderButton";
 import { Link } from "react-router-dom";
 
 function Header(props) {
@@ -8,7 +8,7 @@ function Header(props) {
       <div className="truncate bg-white p-4 text-2xl font-semibold text-black dark:bg-black dark:text-white">
         <Link to={"/"}>YEO's PF</Link>
       </div>
-      <DarkModeButton />
+      <HeaderButton />
     </header>
   );
 }
