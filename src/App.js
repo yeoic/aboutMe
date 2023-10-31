@@ -18,7 +18,6 @@ function App() {
 
     // AboutMe Logic
     const [scrollPosition, setScrollPosition] = useState(0);
-
     const [isHidden, setIsHidden] = useState(false);
     const [isAnimating, setIsAnimating] = useState(false);
     const [age, setAge] = useState(0);

@@ -15,7 +15,7 @@ function PortfolioPage(props) {
         "logo/React-logo.png",
         "logo/Tailwind-Logo.png",
       ],
-      logoName: ["React", "Javascript", "Tailwind"],
+      logoName: ["Javascript", "React", "Tailwind"],
       content:
         "저에 대한 소개와 여지껏 작업한 포트폴리오를 보실 수 있도록 모아놓은 만든 웹 페이지 입니다 😊",
     },
@@ -29,7 +29,7 @@ function PortfolioPage(props) {
         "logo/React-logo.png",
         "logo/Tailwind-Logo.png",
       ],
-      logoName: ["React", "Javascript", "Tailwind", "Redux"],
+      logoName: ["Javascript", "React", "Tailwind"],
       content: "도서관 관리 페이지 입니다.",
     },
     {
@@ -42,7 +42,7 @@ function PortfolioPage(props) {
         "logo/React-logo.png",
         "logo/Tailwind-Logo.png",
       ],
-      logoName: ["React", "Javascript", "Tailwind"],
+      logoName: ["Javascript", "React", "Tailwind"],
       content: "실시간 일회 만남 중개 서비스, 이따보실 입니다!",
     },
   ];
