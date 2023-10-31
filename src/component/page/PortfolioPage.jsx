@@ -11,9 +11,9 @@ function PortfolioPage(props) {
       imgSrc: "bg-[url('/public/character_dark.png')]",
       portfolioSrc: "/",
       logoSrc: [
+        "logo/Javascript-Logo.png",
         "logo/React-logo.png",
         "logo/Tailwind-Logo.png",
-        "logo/Javascript-Logo.png",
       ],
       logoName: ["React", "Javascript", "Tailwind"],
       content:
@@ -25,10 +25,9 @@ function PortfolioPage(props) {
       imgSrc: "bg-[url('/public/character_bright.png')]",
       portfolioSrc: "/",
       logoSrc: [
+        "logo/Javascript-Logo.png",
         "logo/React-logo.png",
         "logo/Tailwind-Logo.png",
-        "logo/Javascript-Logo.png",
-        "logo/Redux-Logo.png",
       ],
       logoName: ["React", "Javascript", "Tailwind", "Redux"],
       content: "도서관 관리 페이지 입니다.",
@@ -39,9 +38,9 @@ function PortfolioPage(props) {
       imgSrc: "bg-[url('/public/RobotAndCharactor.png')]",
       portfolioSrc: "/",
       logoSrc: [
+        "logo/Javascript-Logo.png",
         "logo/React-logo.png",
         "logo/Tailwind-Logo.png",
-        "logo/Javascript-Logo.png",
       ],
       logoName: ["React", "Javascript", "Tailwind"],
       content: "실시간 일회 만남 중개 서비스, 이따보실 입니다!",

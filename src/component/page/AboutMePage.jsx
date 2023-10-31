@@ -17,6 +17,10 @@ function AboutMePage(props) {
     scrollPosition,
   } = React.useContext(stateContext);
 
+  useEffect(() => {
+    console.log("어바웃미 페이지 렌더링");
+  });
+
   const jobContent = [
     {
       id: 1,
@@ -168,4 +172,4 @@ function AboutMePage(props) {
   );
 }
 
-export default AboutMePage;
+export default React.memo(AboutMePage);

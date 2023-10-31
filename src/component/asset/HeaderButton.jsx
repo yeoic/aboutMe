@@ -34,4 +34,4 @@ function HeaderButton(props) {
   );
 }
 
-export default HeaderButton;
+export default React.memo(HeaderButton);
