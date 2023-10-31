@@ -27,7 +27,7 @@ function PortfolioCard({ portfolio }) {
                   className="flex flex-col items-center justify-center"
                 >
                   <img
-                    className="h-16 w-16"
+                    className="h-16 w-16 rounded-lg"
                     src={logo}
                     alt={it.logoName[idx]}
                   />
@@ -38,12 +38,12 @@ function PortfolioCard({ portfolio }) {
               ))}
             </div>
             <div>
-              <span className="inline-flex flex-col items-center justify-center gap-y-4">
+              <div className="inline-flex w-full flex-col items-center justify-center gap-y-4">
                 <p className="mt-5">{it.content}</p>
-                <button className="">
+                <button className="animate-bounce rounded-md bg-black p-2 px-3 text-white dark:bg-amber-500">
                   <Link to={"/"}>보러가기</Link>
                 </button>
-              </span>
+              </div>
             </div>
           </div>
         </article>
