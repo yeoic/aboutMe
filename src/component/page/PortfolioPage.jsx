@@ -12,7 +12,7 @@ function PortfolioPage(props) {
       portfolioSrc: "/",
       logoSrc: [
         "logo/Javascript-Logo.png",
-        "logo/React-logo.png",
+        "logo/React-Logo.png",
         "logo/Tailwind-Logo.png",
       ],
       logoName: ["Javascript", "React", "Tailwind"],
@@ -26,7 +26,7 @@ function PortfolioPage(props) {
       portfolioSrc: "/",
       logoSrc: [
         "logo/Javascript-Logo.png",
-        "logo/React-logo.png",
+        "logo/React-Logo.png",
         "logo/Tailwind-Logo.png",
       ],
       logoName: ["Javascript", "React", "Tailwind"],
@@ -39,7 +39,7 @@ function PortfolioPage(props) {
       portfolioSrc: "/",
       logoSrc: [
         "logo/Javascript-Logo.png",
-        "logo/React-logo.png",
+        "logo/React-Logo.png",
         "logo/Tailwind-Logo.png",
       ],
       logoName: ["Javascript", "React", "Tailwind"],
