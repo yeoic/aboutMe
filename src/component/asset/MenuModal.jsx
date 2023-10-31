@@ -22,7 +22,7 @@ function MenuModal(props) {
   ];
 
   return (
-    <div
+    <section
       className={classNames(
         "fixed z-50 flex h-full w-full justify-center bg-white dark:bg-black",
         modalClass,
@@ -46,7 +46,7 @@ function MenuModal(props) {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -9,7 +9,7 @@ function HomePage(props) {
     <section className={classNames("h-screen w-screen p-3 dark:bg-black")}>
       <article className="flex h-full flex-col-reverse xl:flex-row">
         <div className="flex basis-1/2 flex-col items-start justify-center px-2 dark:text-white sm:px-10 sm:px-16 xl:mt-14">
-          <h1 className="dark:text-orange-500 sm:text-2xl">I'm Yeo Incheol</h1>
+          <p className="dark:text-orange-500 sm:text-2xl">I'm Yeo Incheol</p>
 
           <TypingText
             initialText="I Develop Web Frontend"
@@ -18,10 +18,10 @@ function HomePage(props) {
             backspacingTextSpeed={10}
           />
 
-          <p className="mr-7 mt-8 sm:mt-16">
+          <h1 className="mr-7 mt-8 sm:mt-16">
             바쁜 업무중 시간내어 방문해주셔서 감사합니다.
             <br /> 웹 프론트엔드 개발자를 희망하는 여인철 입니다.
-          </p>
+          </h1>
           <p className="mt-5">잘부탁드리겠습니다 :)</p>
           <p className="mt-5 inline-flex">
             <DevicePhoneMobileIcon className="mr-2 h-6 w-6" /> Phone : 010 3587

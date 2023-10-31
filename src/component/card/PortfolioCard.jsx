@@ -22,7 +22,10 @@ function PortfolioCard({ portfolio }) {
             </div>
             <div className="mt-4 flex flex-wrap justify-center gap-x-2 gap-y-3 opacity-100">
               {it.logoSrc.map((logo, idx) => (
-                <figure className="flex flex-col items-center justify-center">
+                <figure
+                  key={idx}
+                  className="flex flex-col items-center justify-center"
+                >
                   <img className="h-16 w-16" src={logo} alt="Javascript Logo" />
                   <figcaption className="text-sm">
                     {it.logoName[idx]}
