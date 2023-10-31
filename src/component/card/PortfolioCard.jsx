@@ -26,7 +26,11 @@ function PortfolioCard({ portfolio }) {
                   key={idx}
                   className="flex flex-col items-center justify-center"
                 >
-                  <img className="h-16 w-16" src={logo} alt="Javascript Logo" />
+                  <img
+                    className="h-16 w-16"
+                    src={logo}
+                    alt={it.logoName[idx]}
+                  />
                   <figcaption className="text-sm">
                     {it.logoName[idx]}
                   </figcaption>
